@@ -15,7 +15,6 @@
   h2 { font-size: 1.2rem; margin: 2rem 0 .5rem; color: var(--accent); }
   .date { color: var(--discret); margin: 0 0 1.5rem; }
   .resume { background: var(--encadre); border-radius: 12px; padding: 14px 16px; }
-  .a-completer { border: 2px dashed var(--accent); border-radius: 12px; padding: 12px 16px; margin: 0 0 1.5rem; }
   a { color: var(--accent); }
   ul { padding-left: 1.2rem; }
   table { width: 100%; border-collapse: collapse; font-size: .95rem; }
@@ -26,14 +25,15 @@
 <body>
 <main>
 <h1>Politique de confidentialité d'Envoi Protégé</h1>
-<p class="date">Dernière mise à jour : 2 novembre 2026</p>
+<p class="date">Dernière mise à jour : 20 novembre 2026</p>
 
 <p>Envoi Protégé est une application pour téléphone Android qui sert à protéger un document avant de l'envoyer :
 masquer des informations, ajouter un filigrane, supprimer les données cachées dans la photo ou le PDF.</p>
 
 <p class="resume"><strong>En une phrase : tes documents restent sur ton téléphone.</strong> L'application n'a pas de compte,
-pas de publicité et n'envoie ni tes images, ni tes PDF, ni le texte qu'elle y lit. Un point technique est à connaître :
-la détection automatique envoie à Google des données de diagnostic (voir « Détection automatique »).</p>
+pas de publicité et n'envoie ni tes images, ni tes PDF, ni le texte qu'elle y lit. Deux points techniques sont à
+connaître : la détection automatique envoie à Google des données de diagnostic (voir « Détection automatique »), et
+l'application demande à RevenueCat si ton Premium est actif (voir « Achats »).</p>
 
 <h2>Qui est responsable</h2>
 <p>Ludovic STEPHANT, entrepreneur individuel (EI), nom commercial « Petit Rouage »,<br>31 rue des Petits Champs, 91600 Savigny-sur-Orge<br>Contact : <a href="mailto:jonestown91@gmail.com">jonestown91@gmail.com</a></p>
@@ -83,15 +83,30 @@ désactiver cet envoi.</p>
 nettoyage des métadonnées n'en ont pas besoin.</p>
 
 <h2>Achats (Premium)</h2>
-<p class="a-completer"><em>À valider après l'intégration de l'achat : cette section décrit l'état prévu. La relire contre la
-configuration réelle (RevenueCat, produits) avant publication.</em></p>
+<p>Premium s'achète une fois (« à vie ») ou par abonnement mensuel.</p>
 <ul>
-  <li>L'achat passe par <strong>Google Play</strong>. Envoi Protégé ne voit jamais ta carte bancaire.</li>
-  <li>L'état de ton achat (Premium actif ou non) est géré avec <strong>RevenueCat</strong>, un service qui vérifie les achats.
-  Il reçoit un identifiant anonyme, les informations de l'achat et des informations techniques de l'appareil (dont
-  l'adresse IP, transmise par toute connexion). Il ne reçoit aucun document.</li>
-  <li>Il n'y a pas de compte à créer : « Restaurer mes achats » retrouve ton Premium sur un nouveau téléphone, avec le même
-  compte Google Play.</li>
+  <li><strong>Le paiement passe par Google Play.</strong> Envoi Protégé ne voit jamais ta carte bancaire. Google Play
+  transmet à l'éditeur les informations utiles à la gestion des commandes (par exemple le numéro de commande, le produit,
+  le prix et le pays). Le paiement est régi par les conditions et la politique de confidentialité de Google.</li>
+  <li><strong>RevenueCat</strong> (RevenueCat, Inc., États-Unis) vérifie les achats et indique à l'application si ton
+  Premium est actif. Pour cela, l'application l'interroge à chaque ouverture, <strong>même si tu n'as rien acheté</strong>.
+  RevenueCat reçoit :
+    <ul>
+      <li>un <strong>identifiant anonyme</strong>, tiré au hasard par l'application lors de sa première ouverture : ce n'est
+      ni ton nom, ni ton adresse e-mail, ni l'identifiant publicitaire de ton téléphone ;</li>
+      <li>les <strong>informations de tes achats</strong> Premium : produit, date, prix, référence de l'achat Google Play ;</li>
+      <li>des <strong>informations techniques</strong> : marque et modèle du téléphone, version d'Android, langue et pays, nom
+      et version de l'application, et l'<strong>adresse IP</strong> (transmise par toute connexion à Internet).</li>
+    </ul>
+  </li>
+  <li>RevenueCat ne reçoit <strong>aucun document, aucune image et aucun texte lu</strong>. L'application n'active ni ses
+  diagnostics, ni la collecte des identifiants de l'appareil.</li>
+  <li>Ces données servent à vérifier ton achat et à suivre les ventes de l'application. RevenueCat les traite pour le
+  compte de l'éditeur, avec des connexions chiffrées, et les héberge aux États-Unis (Amazon Web Services). Sa
+  <a href="https://www.revenuecat.com/privacy">politique de confidentialité</a>.</li>
+  <li>Il n'y a pas de compte à créer : ton Premium est lié à ton compte Google Play. Sur un nouveau téléphone, avec le même
+  compte Google, il revient en général tout seul ; sinon, touche « Restaurer mes achats ».</li>
+  <li>L'abonnement mensuel se résilie à tout moment dans l'application Google Play (Paiements et abonnements).</li>
 </ul>
 
 <h2>Ce que l'application ne fait pas</h2>
@@ -106,6 +121,9 @@ d'enregistrement d'écran, pas de compte.</p>
 effacer toi-même. Pour toute question sur les données que l'éditeur pourrait détenir (par exemple un achat), écris
 à <a href="mailto:jonestown91@gmail.com">jonestown91@gmail.com</a>. Tu peux demander l'accès, la rectification ou l'effacement, et déposer une réclamation
 auprès de la <a href="https://www.cnil.fr">CNIL</a>.</p>
+<p>Pour les données d'achat, indique ton numéro de commande Google Play (il commence par « GPA. » et figure dans l'e-mail
+de reçu de Google) : il permet de retrouver et d'effacer tes données chez RevenueCat. Ton achat lui-même reste attaché
+à ton compte Google Play.</p>
 
 <h2>Modifications</h2>
 <p>Si cette politique change, la date en haut de la page est mise à jour et, pour un changement important, l'application
