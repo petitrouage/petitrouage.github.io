@@ -3,137 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Politique de confidentialité – Envoi Protégé</title>
-<style>
-  :root { --fond: #ffffff; --texte: #12302d; --discret: #4b625f; --accent: #0f766e; --ligne: #d5e3e1; --encadre: #e6f4f1; }
-  @media (prefers-color-scheme: dark) {
-    :root { --fond: #0e1b1a; --texte: #e3efed; --discret: #a3bab6; --accent: #5fd0c3; --ligne: #264240; --encadre: #16302d; }
-  }
-  body { margin: 0; background: var(--fond); color: var(--texte); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
-  h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 4px; }
-  h2 { font-size: 1.2rem; margin: 2rem 0 .5rem; color: var(--accent); }
-  .date { color: var(--discret); margin: 0 0 1.5rem; }
-  .resume { background: var(--encadre); border-radius: 12px; padding: 14px 16px; }
-  a { color: var(--accent); }
-  ul { padding-left: 1.2rem; }
-  table { width: 100%; border-collapse: collapse; font-size: .95rem; }
-  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--ligne); }
-  th { color: var(--discret); font-weight: 600; }
-</style>
+<title>Politique de confidentialité d'Envoi Protégé</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://petitrouage.github.io/envoi-protege/politique-de-confidentialite.html">
+<meta http-equiv="refresh" content="0; url=envoi-protege/politique-de-confidentialite.html">
+<script>location.replace('envoi-protege/politique-de-confidentialite.html' + location.hash);</script>
 </head>
 <body>
-<main>
-<h1>Politique de confidentialité d'Envoi Protégé</h1>
-<p class="date">Dernière mise à jour : 22 novembre 2026</p>
-
-<p>Envoi Protégé est une application pour téléphone Android qui sert à protéger un document avant de l'envoyer :
-masquer des informations, ajouter un filigrane, supprimer les données cachées dans la photo ou le PDF.</p>
-
-<p class="resume"><strong>En une phrase : tes documents restent sur ton téléphone.</strong> L'application n'a pas de compte,
-pas de publicité et n'envoie ni tes images, ni tes PDF, ni le texte qu'elle y lit. Deux points techniques sont à
-connaître : la détection automatique envoie à Google des données de diagnostic (voir « Détection automatique »), et
-l'application demande à RevenueCat si ton Premium est actif (voir « Achats »).</p>
-
-<h2>Qui est responsable</h2>
-<p>Ludovic STEPHANT, entrepreneur individuel (EI), nom commercial « Petit Rouage »,<br>31 rue des Petits Champs, 91600 Savigny-sur-Orge<br>Contact : <a href="mailto:jonestown91@gmail.com">jonestown91@gmail.com</a></p>
-
-<h2>Tes documents et tes photos</h2>
-<ul>
-  <li>Les documents que tu choisis (galerie, appareil photo, fichier PDF, bouton « Partager ») sont copiés dans un dossier
-  de travail de l'application, sur ton téléphone.</li>
-  <li>Les masques, le filigrane, la lecture du texte et la détection des visages sont calculés <strong>sur ton téléphone</strong>.
-  Aucune image, aucun PDF et aucun texte détecté ne sont envoyés à un serveur.</li>
-  <li>La copie protégée est produite sur ton téléphone, sans EXIF (lieu, date, modèle d'appareil) ni métadonnées PDF.</li>
-  <li>Les copies de travail sont effacées quand tu fermes le document, et au démarrage suivant de l'application.</li>
-  <li>Les photos prises ou choisies dans l'application gardent aussi une copie dans un dossier temporaire privé de
-  l'application, que les autres applications ne peuvent pas lire : ton téléphone peut le vider à tout moment, et tout
-  est supprimé quand tu désinstalles l'application.</li>
-  <li>Quand tu partages le résultat, c'est <strong>toi</strong> qui choisis l'application et le destinataire dans le menu de
-  partage de ton téléphone. Envoi Protégé n'envoie rien lui-même.</li>
-  <li>Quand tu appuies sur « Enregistrer sur le téléphone », seule la copie protégée est écrite, dans le dossier que
-  <strong>tu</strong> choisis dans le sélecteur d'Android. Elle y reste jusqu'à ce que tu la supprimes. Aucune autorisation
-  d'accès à tes fichiers n'est demandée : l'application n'écrit que dans ce dossier, et seulement à ce moment-là.</li>
-</ul>
-
-<h2>Autorisations demandées</h2>
-<table>
-  <tr><th>Autorisation</th><th>Pourquoi</th><th>Quand</th></tr>
-  <tr><td>Appareil photo</td><td>Photographier un document</td><td>Seulement si tu appuies sur « Prendre une photo »</td></tr>
-  <tr><td>Photos</td><td>Choisir une image dans ta galerie</td><td>Seulement si tu appuies sur « Choisir dans la galerie »</td></tr>
-  <tr><td>Empreinte ou code du téléphone</td><td>Verrouiller le journal des envois</td><td>Seulement si tu ouvres le journal (Premium)</td></tr>
-</table>
-<p>L'application ne demande ni la localisation, ni les contacts, ni le micro. Elle ne lit jamais tes empreintes : c'est
-ton téléphone qui répond « oui » ou « non ».</p>
-
-<h2>Ce qui est enregistré sur ton téléphone</h2>
-<ul>
-  <li><strong>Le compteur de documents du jour</strong> (version gratuite) : les dates de tes exports, rien d'autre.</li>
-  <li><strong>Le journal des envois</strong> (Premium) : la date, le destinataire et le motif que tu as saisis, le modèle de
-  filigrane, le type de document, le nombre de pages et une <strong>miniature floutée</strong>. Il n'est jamais envoyé
-  ailleurs. Tu peux exporter ce journal en fichier CSV (action de ta part) et l'effacer entièrement depuis l'application.</li>
-  <li>Tout cela est supprimé quand tu désinstalles l'application.</li>
-</ul>
-
-<h2>Détection automatique (Premium)</h2>
-<p>La détection des visages et la lecture du texte (IBAN, plaques) utilisent <strong>ML Kit</strong>, une bibliothèque de
-Google qui fonctionne sur le téléphone. D'après la documentation de Google
-(<a href="https://developers.google.com/ml-kit/android-data-disclosure">developers.google.com/ml-kit/android-data-disclosure</a>),
-ML Kit envoie à Google, en HTTPS, des <strong>données de diagnostic</strong> : modèle du téléphone, version d'Android, nom et
-version de l'application, identifiant propre à l'installation, temps de calcul. Cette documentation ne mentionne pas
-l'envoi du contenu de tes images, et l'analyse est faite sur le téléphone. Il n'existe pas de réglage officiel pour
-désactiver cet envoi.</p>
-<p>Ces données servent à Google à mesurer le bon fonctionnement de ML Kit. Leur traitement par Google est décrit dans la
-<a href="https://policies.google.com/privacy">politique de confidentialité de Google</a>.</p>
-<p>Si tu ne veux pas de cet envoi, ne te sers pas de la détection automatique : le masquage manuel, le filigrane et le
-nettoyage des métadonnées n'en ont pas besoin.</p>
-
-<h2>Achats (Premium)</h2>
-<p>Premium s'achète une fois (« à vie ») ou par abonnement mensuel.</p>
-<ul>
-  <li><strong>Le paiement passe par Google Play.</strong> Envoi Protégé ne voit jamais ta carte bancaire. Google Play
-  transmet à l'éditeur les informations utiles à la gestion des commandes (par exemple le numéro de commande, le produit,
-  le prix et le pays). Le paiement est régi par les conditions et la politique de confidentialité de Google.</li>
-  <li><strong>RevenueCat</strong> (RevenueCat, Inc., États-Unis) vérifie les achats et indique à l'application si ton
-  Premium est actif. Pour cela, l'application l'interroge à chaque ouverture, <strong>même si tu n'as rien acheté</strong>.
-  RevenueCat reçoit :
-    <ul>
-      <li>un <strong>identifiant anonyme</strong>, tiré au hasard par l'application lors de sa première ouverture : ce n'est
-      ni ton nom, ni ton adresse e-mail, ni l'identifiant publicitaire de ton téléphone ;</li>
-      <li>les <strong>informations de tes achats</strong> Premium : produit, date, prix, référence de l'achat Google Play ;</li>
-      <li>des <strong>informations techniques</strong> : marque et modèle du téléphone, version d'Android, langue et pays, nom
-      et version de l'application, et l'<strong>adresse IP</strong> (transmise par toute connexion à Internet).</li>
-    </ul>
-  </li>
-  <li>RevenueCat ne reçoit <strong>aucun document, aucune image et aucun texte lu</strong>. L'application n'active ni ses
-  diagnostics, ni la collecte des identifiants de l'appareil.</li>
-  <li>Ces données servent à vérifier ton achat et à suivre les ventes de l'application. RevenueCat les traite pour le
-  compte de l'éditeur, avec des connexions chiffrées, et les héberge aux États-Unis (Amazon Web Services). Sa
-  <a href="https://www.revenuecat.com/privacy">politique de confidentialité</a>.</li>
-  <li>Il n'y a pas de compte à créer : ton Premium est lié à ton compte Google Play. Sur un nouveau téléphone, avec le même
-  compte Google, il revient en général tout seul ; sinon, touche « Restaurer mes achats ».</li>
-  <li>L'abonnement mensuel se résilie à tout moment dans l'application Google Play (Paiements et abonnements).</li>
-</ul>
-
-<h2>Ce que l'application ne fait pas</h2>
-<p>Pas de publicité, pas de suivi de ton comportement, pas d'outil d'analyse d'usage, pas de revente de données, pas
-d'enregistrement d'écran, pas de compte.</p>
-
-<h2>Enfants</h2>
-<p>Envoi Protégé ne s'adresse pas aux enfants de moins de 13 ans et ne collecte pas sciemment de données auprès d'eux.</p>
-
-<h2>Tes droits</h2>
-<p>Envoi Protégé ne tient aucun fichier à ton nom : l'essentiel de tes données est sur ton téléphone, où tu peux les
-effacer toi-même. Pour toute question sur les données que l'éditeur pourrait détenir (par exemple un achat), écris
-à <a href="mailto:jonestown91@gmail.com">jonestown91@gmail.com</a>. Tu peux demander l'accès, la rectification ou l'effacement, et déposer une réclamation
-auprès de la <a href="https://www.cnil.fr">CNIL</a>.</p>
-<p>Pour les données d'achat, indique ton numéro de commande Google Play (il commence par « GPA. » et figure dans l'e-mail
-de reçu de Google) : il permet de retrouver et d'effacer tes données chez RevenueCat. Ton achat lui-même reste attaché
-à ton compte Google Play.</p>
-
-<h2>Modifications</h2>
-<p>Si cette politique change, la date en haut de la page est mise à jour et, pour un changement important, l'application
-te le signale.</p>
-</main>
+<p>La politique de confidentialité d'Envoi Protégé a changé d'adresse :
+<a href="envoi-protege/politique-de-confidentialite.html">petitrouage.github.io/envoi-protege/politique-de-confidentialite.html</a>.</p>
 </body>
 </html>
